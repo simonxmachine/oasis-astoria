@@ -9,7 +9,7 @@ export default function Header () {
 
   return(
     <>
-      <div className={`fixed top-0 right-0 w-[330px] h-full bg-main-bg z-50 ${isOpen ? '' : 'translate-x-[330px]'} duration-1000`}>
+      <div className={`fixed top-0 right-0 w-[330px] h-full bg-main-bg z-50 ${isOpen ? '' : 'translate-x-[330px]'} duration-300`}>
         <div className='mx-4 content-center cursor-pointer absolute right-2 top-12' onClick={() => {setIsOpen(false)}}>
           <div className='w-[24px] h-[2px] bg-black -my-[2px] rotate-45'></div>
           <div className='w-[24px] h-[2px] bg-black -my-[2px] -rotate-45'></div>
@@ -43,13 +43,13 @@ export default function Header () {
       </div>
       <div className='w-full flex h-[100px] bg-main-bg text-center fixed z-30'>
         <div className='max-w-[1440px] w-full mx-auto flex justify-between'>
-          <Image src={Logo} alt='' className='w-[120px]'/>
+          <Image src={Logo} alt='' className='w-[160px]'/>
           <div className='w-full flex justify-end'>
-            <div className='w-full content-center space-x-12 hidden sm:block text-right'>
+            <div className='w-full content-center space-x-16 hidden sm:block text-right'>
               <a 
                 href="#" 
                 className=" relative
-                  text-[16px] font-bold cursor-pointer space-x-2 uppercase 
+                  text-[14px] font-bold cursor-pointer space-x-2 uppercase 
                   after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0
                   "
               >
@@ -58,7 +58,7 @@ export default function Header () {
               <a 
                 href="#" 
                 className=" relative
-                  text-[16px] font-bold cursor-pointer space-x-2 uppercase 
+                  text-[14px] font-bold cursor-pointer space-x-2 uppercase 
                   after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0"
               >
                 press
@@ -66,7 +66,7 @@ export default function Header () {
               <a 
                 href="#" 
                 className=" relative
-                  text-[16px] font-bold cursor-pointer space-x-2 uppercase 
+                  text-[14px] font-bold cursor-pointer space-x-2 uppercase 
                   after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0"
               >
                 available homes
@@ -74,7 +74,7 @@ export default function Header () {
               <a 
                 href="#" 
                 className=" relative
-                  text-[16px] font-bold cursor-pointer space-x-2 uppercase 
+                  text-[14px] font-bold cursor-pointer space-x-2 uppercase 
                   after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0"
               >
                 Schedule viewing
