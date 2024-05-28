@@ -43,7 +43,7 @@ export default function Header () {
       </div>
       <div className='w-full flex h-[100px] bg-main-bg text-center fixed z-30'>
         <div className='max-w-[1440px] w-full mx-auto flex justify-between'>
-          <Image src={Logo} alt='' className='w-[160px]'/>
+          <Image src={Logo} alt='' className='w-[220px]'/>
           <div className='w-full flex justify-end'>
             <div className='w-full content-center space-x-16 hidden sm:block text-right'>
               <a 
