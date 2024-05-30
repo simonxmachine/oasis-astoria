@@ -26,14 +26,14 @@ export default function Home() {
         <p className="relative text-white z-20 top-6 font-spartan sans-serif tracking-[2px]">Noble LIC 1st Place Winner <span><a className="underline cursor-pointer">2024 AIA Design Awards</a></span> </p>
         <div className="absolute top-0 right-0 bottom-0 left-0 opacity-80 bg-black"></div>      
       </div>
-      <div className="relative w-full flex py-6 sm:py-24 bg-main-bg mt-0">
-        <div className="max-w-[1280px] mx-6 sm:mx-auto">
-          <div className="w-full md:flex">
+      <div className="relative w-full flex lg:py-24 bg-main-bg mt-0">
+        <div className="max-w-[1280px] mx-0 sm:mx-auto">
+          <div className="w-full lg:flex">
             <div className="w-full">
              <Image src={Banner2} alt="" className="w-full"/>
             </div>
-            <div className="w-full sm:pl-24">
-              <p className="uppercase text-4xl font-bold font-ivy-mode mb-6 text-center sm:text-left">A COLLECTION OF FORTY-SIX BOUTIQUE CONDOMINIUM HOMES IN LONG ISLAND CITY</p>
+            <div className="w-full px-6 lg:pl-24">
+              <p className="uppercase text-4xl font-bold font-ivy-mode mb-6 mt-12 lg:mt-0 text-center sm:text-left">A COLLECTION OF FORTY-SIX BOUTIQUE CONDOMINIUM HOMES IN LONG ISLAND CITY</p>
               <p className="text-xl font-spartan my-6 text-justify ">Nestled between tree-lined streets, Noble LIC is a picture of perfection in Long Island City. With its hand-laid bright white Norman bricks, modern black European windows, and distinctive balcony design, the facade establishes Noble as the preeminent boutique condominium residence in Long Island City.</p>
               <p className="text-xl font-spartan my-6 text-justify">Continuing the theme of contemporary elegance, the lobby has been designed with carefully selected porcelain wall and floor tiles. Each time you step inside, you will be delighted with your decision to make Noble LIC your home. </p>
             </div>

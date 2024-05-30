@@ -8,7 +8,7 @@ export default function Footer () {
   return(
     <>
       <div className='w-full flex bg-footer-banner py-24'>
-        <div className='w-full max-w-[400px] mx-6 lg:mx-auto text-center'>
+        <div className='w-full max-w-[400px] mx-auto text-center'>
           <p className='text-4xl'>FIND YOUR NEW HOME NOBLE LIC </p>
           <button className='text-xl font-bold mt-6 p-4 px-8 uppercase hover:bg-red border-[2px] border-red hover:text-white text-red duration-500'>
             Get in touch
@@ -17,20 +17,6 @@ export default function Footer () {
       </div>
       <div className='w-full bg-main-bg'>
         <div className='w-full max-w-[1440px] mx-auto py-8 px-6'>
-          <div className='w-full sm:flex'>
-            <div className='w-full flex-col space-y-3 my-6'>
-              <p className='text-gray-600 text-xl'>Developer: KVTR </p>
-              <p className='text-gray-600 text-xl'>Architect: HCN Architects </p>
-              <p className='text-gray-600 text-xl'>Interiors: Porcelanosa </p>
-              <p className='text-gray-600 text-xl'>Exclusive Sales, Branding and Marketing: The Patrick Smith Team at The Corcoran Group </p>
-            </div>
-            <div className='text-left sm:w-[500px] flex-col space-y-3 my-6'>
-              <p className='text-gray-600 text-xl'>Developer: KVTR </p>
-              <p className='text-gray-600 text-xl'>Architect: HCN Architects </p>
-              <p className='text-gray-600 text-xl'>Interiors: Porcelanosa </p>
-              <a><p className='relative w-[140px] mt-3 border-b-[2px] text-gray-600 text-xl link after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0'>(212) 380-8184</p> </a>
-            </div>
-          </div>
           <div className='sm:mt-24'>
             <a><p className='relative w-[280px] mt-3 border-b-[2px] text-gray-600 text-xl link after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0'>Standard Operating Procedures</p> </a>
             <a><p className='relative w-[265px] mt-3 border-b-[2px] text-gray-600 text-xl link after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0'>Reasonable Accommodations</p> </a>
@@ -44,7 +30,7 @@ export default function Footer () {
           <div className='mt-6 sm:mt-20 sm:flex w-full'>
             <div className='w-full flex items-center space-x-5'>
               <Image src={logo} alt='' width={80} />
-              <p className='text-xl'>
+              {/* <p className='text-xl'>
                 Real Estate Website Design by &nbsp;
                 <span>
                   <a>
@@ -53,7 +39,7 @@ export default function Footer () {
                     </span>
                   </a>
                 </span>
-              </p>
+              </p> */}
             </div>
             <div className='w-full flex items-center space-x-5'>
               <p className='text-xl'>

@@ -14,7 +14,7 @@ export default function Header () {
           <div className='w-[24px] h-[2px] bg-black -my-[2px] rotate-45'></div>
           <div className='w-[24px] h-[2px] bg-black -my-[2px] -rotate-45'></div>
         </div>
-        <div className='w-full mt-[240px]'>
+        <div className='w-full mt-[120px] sm:mt-[240px]'>
           <div className='mx-6 border-b-[1px] text-center py-3 mt-2'>
             <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> Building Amenities</a>
           </div>
