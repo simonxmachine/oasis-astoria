@@ -16,28 +16,28 @@ export default function Header () {
         </div>
         <div className='w-full mt-[240px]'>
           <div className='mx-6 border-b-[1px] text-center py-3 mt-2'>
-            <a className='font-serif text-xl cursor-pointer uppercase'> Building Amenities</a>
+            <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> Building Amenities</a>
           </div>
           <div className='mx-6 border-b-[1px] text-center py-3 mt-2'>
-            <a className='font-serif text-xl cursor-pointer uppercase'> RESIDENCES</a>
+            <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> RESIDENCES</a>
           </div>
           <div className='mx-6 border-b-[1px] text-center py-3 mt-2'>
-            <a className='font-serif text-xl cursor-pointer uppercase'> TERRACES COLLECTION</a>
+            <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> TERRACES COLLECTION</a>
           </div>
           <div className='mx-6 border-b-[1px] text-center py-3 mt-2'>
-            <a className='font-serif text-xl cursor-pointer uppercase'> LONG ISLAND CITY</a>
+            <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> LONG ISLAND CITY</a>
           </div>
           <div className='mx-6 border-b-[1px] text-center py-3 mt-2'>
-            <a className='font-serif text-xl cursor-pointer uppercase'> TEAM</a>
+            <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> TEAM</a>
           </div>
           <div className='mx-6 border-b-[1px] text-center py-3 mt-2'>
-            <a className='font-serif text-xl cursor-pointer uppercase'> PRESS</a>
+            <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> PRESS</a>
           </div>
           <div className='mx-6 border-b-[1px] text-center py-3 mt-2'>
-            <a className='font-serif text-xl cursor-pointer uppercase'> AVAILABLE HOMES </a>
+            <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> AVAILABLE HOMES </a>
           </div>
           <div className='mx-6 border-b-[1px] text-center py-3 mt-2'>
-            <a className='font-serif text-xl cursor-pointer uppercase'> SCHEDULE VIEWING</a>
+            <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> SCHEDULE VIEWING</a>
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@ export default function Header () {
               <a 
                 href="#" 
                 className=" relative
-                  text-[14px] font-bold cursor-pointer space-x-2 uppercase 
+                  text-[12px] font-bold cursor-pointer tracking-[2px] uppercase font-spartan
                   after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0
                   "
               >
@@ -58,7 +58,7 @@ export default function Header () {
               <a 
                 href="#" 
                 className=" relative
-                  text-[14px] font-bold cursor-pointer space-x-2 uppercase 
+                  text-[12px] font-bold cursor-pointer tracking-[2px] uppercase font-spartan
                   after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0"
               >
                 press
@@ -66,7 +66,7 @@ export default function Header () {
               <a 
                 href="#" 
                 className=" relative
-                  text-[14px] font-bold cursor-pointer space-x-2 uppercase 
+                  text-[12px] font-bold cursor-pointer tracking-[2px] uppercase font-spartan
                   after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0"
               >
                 available homes
@@ -74,7 +74,7 @@ export default function Header () {
               <a 
                 href="#" 
                 className=" relative
-                  text-[14px] font-bold cursor-pointer space-x-2 uppercase 
+                  text-[12px] font-bold cursor-pointer tracking-[2px] uppercase font-spartan
                   after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0"
               >
                 Schedule viewing

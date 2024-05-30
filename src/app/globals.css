@@ -1,6 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'ivy-mode';
+  src: url('./assets/fonts/ivy-mode-9.ttf');
+}
+@font-face {
+  font-family: 'nunito-sans';
+  src: url('./assets/fonts/nunito-sans-3.ttf');
+}
+@font-face {
+  font-family: 'poppins';
+  src: url('./assets/fonts/poppins.ttf');
+}
+@font-face {
+  font-family: 'spartan-mb-5';
+  src: url('./assets/fonts/spartan-mb-5.ttf');
+}
 
 /* :root {
   --foreground-rgb: 0, 0, 0;

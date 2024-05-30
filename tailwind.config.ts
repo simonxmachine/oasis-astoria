@@ -17,6 +17,12 @@ const config: Config = {
         'main-bg' : '#FDF4F0',
         'footer-banner' : '#E7CFCB',
         'red' : '#AB0535',
+      },
+      fontFamily : {
+        'ivy-mode' : ['ivy-mode', 'fallback-font-family'],
+        'nunito-sans' : ['nunito-sans', 'fallback-font-family'],
+        'poppins' : ['poppins', 'fallback-font-family'],
+        'spartan' : ['spartan-mb-5', 'fallback-font-family'],
       }
     },
   },
