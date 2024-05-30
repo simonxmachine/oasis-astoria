@@ -87,7 +87,7 @@ export default function Home() {
               <p className="text-lg font-spartan text-[14px] px-3 sm:px-0">
                 After cycling the 59th Street Bridge, exploring North Brooklyn,
                 or enjoying Astoria’s waterfront, you can park your bike in
-                Oasis's onsite bike room.
+                Oasis’s onsite bike room.
               </p>
             </div>
             <div className="text-center my-6">
@@ -97,7 +97,7 @@ export default function Home() {
               </p>
               <p className="text-lg font-spartan text-[14px] px-3 sm:px-0">
                 Tired of searching for street parking? You can rent an indoor
-                parking space in Oasis's onsite garage.
+                parking space in Oasis’s onsite garage.
               </p>
             </div>
           </div>
@@ -109,10 +109,10 @@ export default function Home() {
                 RESIDENTS LOUNGE
               </p>
               <p className="text-lg font-spartan text-[14px] px-3 sm:px-0">
-                Oasis's glass-enclosed Residents Lounge boasts high ceilings,
+                Oasis’s glass-enclosed Residents Lounge boasts high ceilings,
                 custom millwork, a Porcelanosa catering kitchen, and a large
                 smart screen. Ideal for daytime remote work or evening
-                entertainment, Oasis's lounge is the perfect extension of your
+                entertainment, Oasis’s lounge is the perfect extension of your
                 home.
               </p>
             </div>
