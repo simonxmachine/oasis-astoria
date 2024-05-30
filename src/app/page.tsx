@@ -42,23 +42,23 @@ export default function Home() {
           <div className="text-center mt-16 mb-12 text-4xl font-ivy-mode">
           ELEVATED AMENITIES
           </div>
-          <p className="text-center text-lg font-spartan">Noble offers services and amenities typically associated with a larger building as well as the exclusivity available only in a boutique condominium residence.</p>
+          <p className="text-center text-lg font-spartan px-6">Noble offers services and amenities typically associated with a larger building as well as the exclusivity available only in a boutique condominium residence.</p>
 
           <div className="w-full sm:flex mt-12 sm:space-x-16">
             <div className="text-center my-6">
               <Image alt="" src={foot} width={100} className="mx-auto"/>
               <p className="text-red text-xl my-6 font-ivy-mode font-semibold">PET SPA</p>
-              <p className="text-lg font-spartan text-[14px]">Noble’s Pet Spa offers a top-notch bathing station and dryer so you can keep your canine companions looking their best.</p>
+              <p className="text-lg font-spartan text-[14px] px-3 sm:px-0">Noble’s Pet Spa offers a top-notch bathing station and dryer so you can keep your canine companions looking their best.</p>
             </div>
             <div className="text-center my-6">
               <Image alt="" src={bike} width={100}  className="mx-auto"/>
               <p className="text-red text-xl my-6 font-ivy-mode font-semibold">BICYCLE STORAGE</p>
-              <p className="text-lg font-spartan text-[14px]">After cycling the 59th Street Bridge, exploring North Brooklyn, or enjoying Long Island City’s waterfront, you can park your bike in Noble’s onsite bike room.</p>
+              <p className="text-lg font-spartan text-[14px] px-3 sm:px-0">After cycling the 59th Street Bridge, exploring North Brooklyn, or enjoying Long Island City’s waterfront, you can park your bike in Noble’s onsite bike room.</p>
             </div>
             <div className="text-center my-6">
               <Image alt="" src={car} width={100}  className="mx-auto"/>
               <p className="text-red text-xl my-6 font-ivy-mode font-semibold">INDOOR PARKING</p>
-              <p className="text-lg font-spartan text-[14px]">Tired of searching for street parking? You can rent an indoor parking space in Noble’s onsite garage.</p>
+              <p className="text-lg font-spartan text-[14px] px-3 sm:px-0">Tired of searching for street parking? You can rent an indoor parking space in Noble’s onsite garage.</p>
             </div>
           </div>
           
@@ -66,30 +66,30 @@ export default function Home() {
             <div className="text-center my-6">
               <Image alt="" src={meeting} width={100} className="mx-auto"/>
               <p className="text-red text-xl my-6 font-ivy-mode font-semibold">RESIDENTS LOUNGE</p>
-              <p className="text-lg font-spartan text-[14px]">Noble’s glass-enclosed Residents Lounge boasts high ceilings, custom millwork, a Porcelanosa catering kitchen, and a large smart screen. Ideal for daytime remote work or evening entertainment, the Noble’s lounge is the perfect extension of your home.</p>
+              <p className="text-lg font-spartan text-[14px] px-3 sm:px-0">Noble’s glass-enclosed Residents Lounge boasts high ceilings, custom millwork, a Porcelanosa catering kitchen, and a large smart screen. Ideal for daytime remote work or evening entertainment, the Noble’s lounge is the perfect extension of your home.</p>
             </div>
             <div className="text-center my-6">
               <Image alt="" src={beach} width={100}  className="mx-auto"/>
               <p className="text-red text-xl my-6 font-ivy-mode font-semibold">ROOF TERRACES</p>
-              <p className="text-lg font-spartan text-[14px]">Noble residents enjoy outdoor grilling and panoramic Manhattan skyline views from the 4,200-sq-ft landscaped roof deck. The 2nd floor also offers three common open spaces totaling more than 3,000 sq ft, an oasis for Noble residents.</p>
+              <p className="text-lg font-spartan text-[14px] px-3 sm:px-0">Noble residents enjoy outdoor grilling and panoramic Manhattan skyline views from the 4,200-sq-ft landscaped roof deck. The 2nd floor also offers three common open spaces totaling more than 3,000 sq ft, an oasis for Noble residents.</p>
             </div>
             <div className="text-center my-6">
               <Image alt="" src={fitness} width={100}  className="mx-auto"/>
               <p className="text-red text-xl my-6 font-ivy-mode font-semibold">FITNESS CENTER</p>
-              <p className="text-lg font-spartan text-[14px]">The fitness center consists of indoor and outdoor areas. The indoor gym includes the latest cardio and strength equipment by Octane, True and Hudson Steel. You can bring your workout outdoors to the 997-sq-ft fitness terrace.</p>
+              <p className="text-lg font-spartan text-[14px] px-3 sm:px-0">The fitness center consists of indoor and outdoor areas. The indoor gym includes the latest cardio and strength equipment by Octane, True and Hudson Steel. You can bring your workout outdoors to the 997-sq-ft fitness terrace.</p>
             </div>
           </div>
           <div className="sm:w-[60%] sm:flex sm:mt-12 mx-auto">
             <div className="text-center my-6 sm:mx-8">
               <Image alt="" src={blue} width={100} className="mx-auto"/>
               <p className="text-red text-xl my-6 font-ivy-mode font-semibold">LATCH</p>
-              <p className="text-lg font-spartan text-[14px]">Latch enhances your quality of living by incorporating features such as keyless entry for residential units, remote intercom access, and secure
+              <p className="text-lg font-spartan text-[14px] px-3 sm:px-0">Latch enhances your quality of living by incorporating features such as keyless entry for residential units, remote intercom access, and secure
 package room entry.</p>
             </div>
             <div className="text-center my-6 sm:mx-8">
               <Image alt="" src={mfc} width={100}  className="mx-auto"/>
               <p className="text-red text-xl my-6 font-ivy-mode font-semibold">PERSONAL STORAGE</p>
-              <p className="text-lg font-spartan text-[14px]">With your own onsite storage locker, you can keep your personal belongings tucked safely away. </p>
+              <p className="text-lg font-spartan text-[14px] px-3 sm:px-0">With your own onsite storage locker, you can keep your personal belongings tucked safely away. </p>
             </div>
           </div>
         </div>
