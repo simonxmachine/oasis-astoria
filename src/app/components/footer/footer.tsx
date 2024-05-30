@@ -9,7 +9,7 @@ export default function Footer () {
     <>
       <div className='w-full flex bg-footer-banner py-24'>
         <div className='w-full max-w-[400px] mx-auto text-center'>
-          <p className='text-4xl'>FIND YOUR NEW HOME NOBLE LIC </p>
+          <p className='text-4xl font-ivy-mode font-bold'>FIND YOUR NEW HOME NOBLE LIC </p>
           <button className='text-xl font-bold mt-6 p-4 px-8 uppercase hover:bg-red border-[2px] border-red hover:text-white text-red duration-500'>
             Get in touch
           </button>
